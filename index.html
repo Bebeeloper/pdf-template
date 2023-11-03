@@ -97,7 +97,15 @@
             font-size: 6px;
             font-weight: 300;
         }
-        
+        .header-custon-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div-rounded {
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 4px;
+        }
 
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -292,8 +300,8 @@
                 <p>FLORENCIA - CAQUETA</p>
             </td>
         </tr>
-        <tr>
-            <td colspan="9" class="gray-background"><h2>INFORMACION DEL VEHICULO Y CONDUCTOR</h2></td>
+        <tr class="gray-background">
+            <td colspan="9"><h2>INFORMACION DEL VEHICULO Y CONDUCTOR</h2></td>
         </tr>
         <tr style="text-align: center;">
             <td colspan="5" style="border-top: none;">
@@ -476,6 +484,89 @@
             </td>
             <td>
                 <h3>JHON GIRALDO</h3>
+            </td>
+        </tr>
+        <tr class="gray-background">
+            <td colspan="3">
+                <h2>
+                    VALORES
+                </h2>
+            </td>
+            <td colspan="3">
+
+            </td>
+            <td colspan="3">
+                <h2>
+                    OBSERVACIONES
+                </h2>
+            </td>
+        </tr>
+        <tr style="height: 1px;">
+            <td rowspan="6" style=" height: inherit; text-align: center;">
+                <div style="width: 100%; height: 100%; display: flex;flex-direction: column; justify-content: space-between;">
+                    <p>VALOR TOTAL DEL VIAJE</p>
+                    <p>RETENCIÓN EN LA FUENTE</p>
+                    <p>RETENCIÓN ICA</p>
+                    <p>VALOR NETO A PAGAR</p>
+                    <p>VALOR ANTICIPO</p>
+                    <p>SALDO A PAGAR</p>
+                </div>
+            </td>
+            <td colspan="2">
+                <p style="text-align: end;">0.00</p>
+            </td>
+            <td rowspan="6" colspan="3" style="height: inherit;">
+                <div style="width: 100%; height: 100%;">
+                    <div style="padding: 0 10px; width: 100%; height: 30%; display: grid; grid-template-columns: repeat(4, 1fr);">
+                        <div class="header-custon-container">
+                            <p>LUGAR DE PAGO</p>
+                        </div>
+                        <div class="header-custon-container div-rounded">
+                            <p>NEIVA</p>
+                        </div>
+                        <div class="header-custon-container">
+                            <p>FECHA</p>
+                        </div>
+                        <div class="header-custon-container div-rounded">
+                            <p>2023/08/26</p>
+                        </div>
+                    </div>
+                    <div style="padding: 0 10px; width: 100%; height: 70%; display: flex; flex-direction: column; justify-content: space-around;">
+                        <p>CARGUE PAGADO POR</p>
+                        <p style="padding: 2px; text-align: center; border: 1px solid black; border-radius: 4px">REMITENTE</p>
+                        <p>DESCARGUE PAGADO POR</p>
+                        <p style="padding: 2px; text-align: center; border: 1px solid black; border-radius: 4px">DESTINATARIO</p>
+                    </div>
+
+                </div>
+            </td>
+            <td rowspan="6" colspan="3">
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: end;">0.00</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: end;">0.00</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: end;">0.00</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: end;">0.00</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p style="text-align: end;">0.00</p>
             </td>
         </tr>
       </table>
